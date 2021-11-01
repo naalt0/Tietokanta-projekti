@@ -1,0 +1,19 @@
+import time
+import datetime
+import mariadb
+
+conn = mariadb.connect(user="root", password="HyTe", host="localhost", database="Tiedot")
+cur = conn.cursor()
+   
+arvo = 2
+    
+while (1):
+    time.sleep(2)
+    now = (datetime.datetime.now())
+    print(f"{now}")
+    cur.execute(f"INSERT INTO Mittari (arvo, pvm) VALUES ('{arvo}', '{datetime.datetime.now()}')")
+    arvo += 2
+    conn.commit()
+
+conn.close()
+ 
