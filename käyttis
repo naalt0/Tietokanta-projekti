@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<title>Projekti</title>
+		<style>
+			 .boxi_sisus {
+				border: 1px solid black;
+				text-align: center;
+				margin: 10px;
+				padding: 5px;
+				width: 100px;
+			 }
+			 
+			 .boxi {
+				 justify-content: center;
+				 align-items: centeer;
+				 display: flex;
+			}
+			 
+			
+		 
+		</style>
+	</head>
+	<body> 
+		<?php
+		header("refresh: 3;")
+		$hostname = "localhost";
+		$username = "root";
+		$password = "HyTe";
+		$db = "Tiedot";
+		$dbconnect=mysqli_connect($hostname,$username,$password,$db);
+		if ($dbconnect->connect_error) {
+			die("Database conneciton failed: " . $dbconnect->connect_error);
+			}
+		?> 
+	
+		<?php
+		$query = mysql _query($dbconnect, "SELECT * FROM Mittari")
+			or die (mysqli_error($dbconnect));
+			
+		while ($row 0 mysqli_fetch_array($query)) {
+		  echo
+			">
+		}
+		
+		
+		?>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<h1 style="text-align: center;">Sääasema</h1>
+		
+	
+		<div class="boxi">
+	
+			<div class="boxi_sisus">
+				<h3>ID<h3>
+			</div>
+	
+			<div class="boxi_sisus">
+				<h3>ARVO</h3>
+			</div>
+		</div>
+
+	</body>
+</html>
