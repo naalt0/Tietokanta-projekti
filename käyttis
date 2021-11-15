@@ -21,32 +21,7 @@
 		</style>
 	</head>
 	<body> 
-		<?php
-		header("refresh: 3;");
-		$hostname = "localhost";
-		$username = "root";
-		$password = "HyTe";
-		$db = "Tiedot";
-		$dbconnect=mysqli_connect($hostname,$username,$password,$db);
-		if ($dbconnect->connect_error) {
-		   die("Database conneciton failed: " . $dbconnect->connect_error);
-		}
-		?> 
-	
-		<?php
-			$query = mysqli_query($dbconnect, "SELECT * FROM Mittari")
-				or die (mysqli_error($dbconnect));
-			
-			while ($row = mysqli_fetch_array($query)) {
-				echo
-					"<div>
-					  <div>{$row['id']}</div>
-					  <div>{$row['arvo']}</div>
-					</div>\n";
-		}
-		?>
-	
-	
+		
 		<h1 style="text-align: center;">Sääasema</h1>
 		
 	
@@ -60,6 +35,44 @@
 				<h3>ARVO</h3>
 			</div>
 		</div>
+		
+	
+		<?php
 
+header("refresh: 5;");
+
+$hostname = "localhost";
+$username = "root";
+$password = "HyTe";
+$db = "Tiedot";
+
+$dbconnect=mysqli_connect($hostname,$username,$password,$db);
+
+if ($dbconnect->connect_error) {
+  die("Database connection failed: " . $dbconnect->connect_error);
+}
+
+?>
+
+
+<?php
+
+$query = mysqli_query($dbconnect, "SELECT * FROM Mittari")
+   or die (mysqli_error($dbconnect));
+
+while ($row = mysqli_fetch_array($query)) {
+  echo
+   "<div>
+    <div>{$row['id']}</div>
+    <div>{$row['arvo']}</div>
+   </div>\n";
+
+}
+
+?>
+	
+	
+
+</table>
 	</body>
 </html>
