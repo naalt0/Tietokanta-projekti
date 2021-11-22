@@ -7,8 +7,7 @@
  | Eevertti, Joku purjo600 |
 # Asiat mitä projektiin tarvitaan!
 
-> Tietovarasto | MariaDB
-
+> Tietovarasto | MariaDB |
 > MariaDB:hen otetaan yhteys python koodin avulla. Koodi löytyy samasta reposta..
 
 > Käyttöliittymä | Index.php
