@@ -1,9 +1,12 @@
  # Tietokanta-Projekti
 
 # Asiat mitä projektiin tarvitaan!
-> Tietovarasto eli core
+> Tietovarasto
+-
 > Käyttöliittymä
+-
 > Itse Koodi
+-
 > Anturi
 > Api
 
