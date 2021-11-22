@@ -10,7 +10,7 @@
 ---------------------------------------------------------------------------------------
 
 > Tietovarasto | MariaDB |
-> MariaDB:hen otetaan yhteys python koodin avulla. Koodi löytyy samasta reposta..
+> MariaDB:hen otetaan yhteys python koodin avulla. Koodi löytyy samasta reposta... (Python_tehtävä)
 
 > Käyttöliittymä | Index.php |
 > Käyttiksen tehtävä on vain näyttää tiedot ja se tehdään PHP, HTML ja CSS avulla.
