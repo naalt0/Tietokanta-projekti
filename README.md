@@ -1,19 +1,20 @@
  # Tietokanta-Projekti
-
+ 
+ | Tekijät |
+ | --------- |
+ | Neo |
+ | Iiro |
+ | Eevertti |
 # Asiat mitä projektiin tarvitaan!
-> Tietovarasto
 
-> Käyttöliittymä
+> Tietovarasto eli MariaDB
 
-> Itse Koodi
+> Käyttöliittymä eli Index.php
 
-> Anturi
-
-> Api
+> Anturi eli Rasperry pi
 
 # Koodi
-> Chart
 
-> inside code
+> Chart eli JS, Html
 
-> PHP
+> inside code eli PHP, Html, Python 
