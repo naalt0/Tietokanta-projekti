@@ -27,5 +27,4 @@
 
 > inside code | PHP, HTML, Python 
 ------------------------------
-
-![alt text](http://url/to/hakkerivelho.jpg)
+!(https://github.com/naalt0/Tietokanta-projekti/commit/5830ce7aebee3cac897368e7a6e60e1956db0360)
