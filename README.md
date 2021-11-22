@@ -1,4 +1,4 @@
-# Tietokanta-Projekti
+<div text-align=center> # Tietokanta-Projekti <div>
 
 # Asiat mitä projektiin tarvitaan!
 - Tietovarasto eli core
