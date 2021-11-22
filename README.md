@@ -1,4 +1,4 @@
-<div text-align=center> # Tietokanta-Projekti <div>
+ # Tietokanta-Projekti
 
 # Asiat mitä projektiin tarvitaan!
 - Tietovarasto eli core
@@ -7,3 +7,7 @@
 - Anturi
 - Api
 
+# Koodi
+- Chart
+- inside code
+- PHP
