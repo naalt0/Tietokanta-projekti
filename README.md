@@ -11,7 +11,7 @@
 > MariaDB:hen otetaan yhteys python koodin avulla. Koodi löytyy samasta reposta..
 
 > Käyttöliittymä | Index.php |
-> Käyttiksen tehtävä on vain näyttää tiedot ja se tehdään php, html ja CSS avulla.
+> Käyttiksen tehtävä on vain näyttää tiedot ja se tehdään PHP, HTML ja CSS avulla.
 
 > Anturi | Rasperry pi |
 > Rasperryllä koodataan käyttis ja hankitaan databaseen yhteys.
@@ -23,6 +23,6 @@
 
 # Koodi
 
-> Chart.php | JS, Html, PHP
+> Chart.php | JS, HTML, PHP
 
-> inside code | PHP, Html, Python 
+> inside code | PHP, HTML, Python 
