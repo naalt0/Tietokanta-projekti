@@ -2,7 +2,7 @@
  
  | Tekijät |
  | --------- |
- | Neo, Naalt0|
+ | Neo, naalt0|
  | Iiro, Abraxas|
  | Eevertti, Joku purjo600 |
 # Asiat mitä projektiin tarvitaan!
