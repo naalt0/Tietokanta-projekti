@@ -2,9 +2,9 @@
 
 # Asiat mitä projektiin tarvitaan!
 > Tietovarasto
--
+---------------
 > Käyttöliittymä
--
+---------------
 > Itse Koodi
 -
 > Anturi
