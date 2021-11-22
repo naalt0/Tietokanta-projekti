@@ -1,4 +1,4 @@
-<p align="center">Tietokanta-Projekti</p>
+#Tietokanta-Projekti
 
 #Asiat mitä projectiin tarvitaan!
 - Tietovarasto eli core
