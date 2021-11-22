@@ -12,7 +12,7 @@
 > Tietovarasto | MariaDB |
 > MariaDB:hen otetaan yhteys python koodin avulla. Koodi löytyy samasta reposta... (Python_tehtava)
 
-> Käyttöliittymä | Index.php |
+> Käyttöliittymä | Index.php | Chart.php |
 > Käyttiksen tehtävä on vain näyttää tiedot ja se tehdään PHP, HTML ja CSS avulla.
 
 > Anturi | Rasperry pi |
