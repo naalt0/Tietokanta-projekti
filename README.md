@@ -1,6 +1,6 @@
-#Tietokanta-Projekti
+# Tietokanta-Projekti
 
-#Asiat mitä projectiin tarvitaan!
+# Asiat mitä projektiin tarvitaan!
 - Tietovarasto eli core
 - Käyttöliittymä
 - Itse Koodi
