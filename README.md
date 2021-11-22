@@ -26,3 +26,6 @@
 > Chart.php | JS, HTML, PHP
 
 > inside code | PHP, HTML, Python 
+------------------------------
+
+![alt text](http://url/to/img.png)
