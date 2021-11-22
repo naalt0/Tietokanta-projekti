@@ -16,10 +16,10 @@
 > Anturi | Rasperry pi |
 > Rasperryllä koodataan käyttis ja hankitaan databaseen yhteys.
 
-> 1. "mysql -u root -p"
-> 2. CMD pyytää salasanaa, tässä tilanteessa: "HyTe"
-> 3. Tämän jälkeen kirjoita: "use Tiedot"
-> 4. Sitten kirjoita: "SELCET * FROM Mittari;"
+>1. "mysql -u root -p"
+>2. CMD pyytää salasanaa, tässä tilanteessa: "HyTe"
+>3. Tämän jälkeen kirjoita: "use Tiedot"
+>4. Sitten kirjoita: "SELCET * FROM Mittari;"
 
 # Koodi
 
