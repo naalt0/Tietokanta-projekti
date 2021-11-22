@@ -27,4 +27,4 @@
 
 > inside code | PHP, HTML, Python 
 ------------------------------
-!(https://github.com/naalt0/Tietokanta-projekti/commit/5830ce7aebee3cac897368e7a6e60e1956db0360)
+
