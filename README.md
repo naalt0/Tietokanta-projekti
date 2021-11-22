@@ -7,6 +7,8 @@
  | Eevertti, Joku purjo600 |
 # Asiat mitä projektiin tarvitaan!
 
+---------------------------------------------------------------------------------------
+
 > Tietovarasto | MariaDB |
 > MariaDB:hen otetaan yhteys python koodin avulla. Koodi löytyy samasta reposta..
 
@@ -21,10 +23,12 @@
 >3. Tämän jälkeen kirjoita: "use Tiedot"
 >4. Sitten kirjoita: "SELCET * FROM Mittari;"
 
+---------------------------------------------------------------------------------------
+
 # Koodi
 
 > Chart.php | JS, HTML, PHP
 
 > inside code | PHP, HTML, Python 
-------------------------------
+---------------------------------------------------------------------------------------
 
