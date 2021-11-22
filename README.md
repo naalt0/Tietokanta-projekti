@@ -6,11 +6,14 @@
 > Käyttöliittymä
 
 > Itse Koodi
--
+
 > Anturi
+
 > Api
 
 # Koodi
 > Chart
+
 > inside code
+
 > PHP
