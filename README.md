@@ -30,5 +30,17 @@
 > Chart.php | JS, HTML, PHP
 
 > inside code | PHP, HTML, Python 
+
+> Print | printaa id ja arvon siihen taulukkoon
+
+> Chartti päivittyy asioittensa mukaan
 ---------------------------------------------------------------------------------------
+
+# Chartti 
+
+> Olemme tehneet linechartin google chartista (Pastena koodattii)
+
+> ja päivittyy oikein resultin kautta charttiin
+
+> koodi on valmis
 
