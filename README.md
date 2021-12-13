@@ -38,7 +38,7 @@
 
 # Chartti 
 
-> Olemme tehneet linechartin google chartista (Pastena koodattii)
+> Olemme tehneet linechartin google chartista (Pastena koodattu)
 
 > ja päivittyy oikein resultin kautta charttiin
 
