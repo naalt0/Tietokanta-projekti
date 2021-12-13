@@ -44,3 +44,9 @@ Nämä kirjoitetaan LxTerminaaliin
 
 >Chartti koodissa käytetään google charttia ja php:tä näiden yhdistelmänä saadaan toimiva chartti käyttöliittymä.
 >Repossa koodi löytyy nimellä "chartti"
+
+--------------------------------------------------------------------------------------
+
+# Python
+
+> jotta charttit ja muut käyttöliittymät toimisi pitää muistaa pitää Python koodi käynnissä!
