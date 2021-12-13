@@ -1,21 +1,59 @@
 <html>
 	<head>
+		<link rel="php" href="chart.php">
 		<title>Projekti</title>
 		<style>
-			 .boxi_sisus {
+			h1 {
+				padding: 5px;
+				font-family: 'Segoe UI', sans-serif;
+				}
+			
+			
+			
+			.overflow {
+				width: 70%; 
+				overflow: hidden;
 				border: 1px solid black;
 				text-align: center;
-				margin: 10px;
-				padding: 5px;
-				width: 100px;
-			 }
-			 
+				width: 150px;
+				padding: 10px;
+				
+			}
+			
+			.id {
+				width: 25%;
+				float: left;	
+			}
+			
+			.arvo {
+				margin-left: 40%;
+				}
+			
+			
+			{
+				box-sizing: border-box;
+			}
+			
 			 .boxi {
-				 justify-content: center;
-				 align-items: centeer;
+				 justify-content: left;
+				 align-items: center;
 				 display: flex;
 			}
-			 
+			
+			a {
+			padding: 10 30px;
+			border: solid 2px royalblue;
+			color: royalblue;
+			border-radius: 4px;
+			text-decoration: none;	
+			}
+			
+			a:hover {
+			background: royalblue;
+			color: white;
+			transition: 170ms;
+			}
+			
 			
 		 
 		</style>
@@ -23,22 +61,50 @@
 	<body> 
 		
 		<h1 style="text-align: center;">Sääasema</h1>
-		
+		<a href="http://localhost/chart.php" >Chart</a>
+		<center>
 	
-		<div class="boxi">
-	
-			<div class="boxi_sisus">
-				<h3>ID<h3>
-			</div>
-			
-			<div class="boxi_sisus">
-				<h3>ARVO</h3>
-			</div>
+		 <div class="overflow">
+			<div class="id"> <h1>Id</h1> </div>
+			<div class="arvo"> <h1>Arvo</h1> </div>
 		</div>
 		
-	
+		 
+		
 		<?php
 
+//header("refresh: 5;");
+
+$hostname = "localhost";
+$username = "root";
+$password = "HyTe";
+$db = "Tiedot";
+
+$dbconnect=mysqli_connect($hostname,$username,$password,$db);
+
+if ($dbconnect->connect_error) {
+  die("Database connection failed: " . $dbconnect->connect_error);
+}
+
+
+$query = mysqli_query($dbconnect, "SELECT * FROM Mittari ORDER BY id DESC LIMIT 15")
+   or die (mysqli_error($dbconnect));
+
+while ($row = mysqli_fetch_array($query)) {
+  echo
+   "<div class='overflow'>
+			<div class='id'> {$row['id']}</div>
+			<div class='arvo'> {$row['arvo']} </div>
+		</div>\n";
+   }
+
+?>
+	
+	</center>
+
+
+	</body>
+</html>
 header("refresh: 5;");
 
 $hostname = "localhost";
