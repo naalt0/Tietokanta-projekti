@@ -40,5 +40,5 @@ Nämä kirjoitetaan LxTerminaaliin
 
 # Chartti 
 
->Chartti koodissa käytetään google charttia ja php:tä näiden yhdistelmänä saadaan toimiva chartti käyttöliittymä
+>Chartti koodissa käytetään google charttia ja php:tä näiden yhdistelmänä saadaan toimiva chartti käyttöliittymä.
 >Repossa koodi löytyy nimellä "Chartti"
