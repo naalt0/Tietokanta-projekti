@@ -40,9 +40,5 @@ Nämä kirjoitetaan LxTerminaaliin
 
 # Chartti 
 
-> Olemme tehneet linechartin google chartista (Pastena koodattu)
-
-> ja päivittyy oikein resultin kautta charttiin
-
-> koodi on valmis
-
+>Chartti koodissa käytetään google charttia ja php:tä näiden yhdistelmänä saadaan toimiva chartti käyttöliittymä
+>Repossa koodi löytyy nimellä "Chartti"
