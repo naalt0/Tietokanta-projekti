@@ -16,7 +16,8 @@
 > Käyttiksen tehtävä on vain näyttää tiedot ja se tehdään PHP, HTML ja CSS avulla.
 
 > Anturi | Rasperry pi |
-> Rasperryllä koodataan käyttis ja hankitaan databaseen yhteys.
+> Rasperryllä koodataan käyttöliittymä ja hankitaan databaseen yhteys.
+
 
 Nämä kirjoitetaan LxTerminaaliin
 
