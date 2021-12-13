@@ -73,7 +73,7 @@
 		
 		<?php
 
-//header("refresh: 5;");
+header("refresh: 5;");
 
 $hostname = "localhost";
 $username = "root";
@@ -103,42 +103,5 @@ while ($row = mysqli_fetch_array($query)) {
 	</center>
 
 
-	</body>
-</html>
-header("refresh: 5;");
-
-$hostname = "localhost";
-$username = "root";
-$password = "HyTe";
-$db = "Tiedot";
-
-$dbconnect=mysqli_connect($hostname,$username,$password,$db);
-
-if ($dbconnect->connect_error) {
-  die("Database connection failed: " . $dbconnect->connect_error);
-}
-
-?>
-
-
-<?php
-
-$query = mysqli_query($dbconnect, "SELECT * FROM Mittari")
-   or die (mysqli_error($dbconnect));
-
-while ($row = mysqli_fetch_array($query)) {
-  echo
-   "<div>
-    <div>{$row['id']}</div>
-    <div>{$row['arvo']}</div>
-   </div>\n";
-
-}
-
-?>
-	
-	
-
-</table>
 	</body>
 </html>
